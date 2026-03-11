@@ -3,19 +3,25 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Dashboard",
+    title: "streeamline",
     description: "A modern admin dashboard with real-time analytics, order management, and responsive charts built with React and Tailwind CSS.",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Recharts"],
+    tags: ["TypeScript", "Tailwind CSS",],
+    sourceCode: "https://github.com/xusanboy-m/streamline",
+    link: "https://streamline-ashy.vercel.app/"
   },
   {
-    title: "Weather App",
+    title: "simple-calculator",
     description: "A beautiful weather application with location search, 7-day forecasts, and animated weather icons using external API integration.",
-    tags: ["JavaScript", "REST API", "CSS3", "Responsive"],
+    tags: ["JavaScript", "CSS3", "Responsive"],
+    sourceCode: "https://github.com/xusanboy-m/simple-calculator",
+    link: "https://react-calc-zen.vercel.app/"
   },
   {
-    title: "Task Management Tool",
+    title: "beauty-salon",
     description: "A drag-and-drop task manager with project boards, team collaboration features, and real-time updates.",
-    tags: ["React", "Node.js", "MongoDB", "Socket.io"],
+    tags: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/xusanboy-m/beauty-salon",
+    link: "https://beauty-solon-hfp8.vercel.app/"
   },
 ];
 
@@ -48,10 +54,10 @@ const ProjectsSection = () => {
               <div className="flex items-start justify-between mb-4">
                 <h3 className="font-display font-semibold text-xl">{project.title}</h3>
                 <div className="flex gap-3 text-muted-foreground">
-                  <a href="#" className="hover:text-primary transition-colors" aria-label="GitHub">
+                  <a href={product.sourceCodehttps://github.com/xusanboy-m/streamline} className="hover:text-primary transition-colors" aria-label="GitHub">
                     <Github size={18} />
                   </a>
-                  <a href="#" className="hover:text-primary transition-colors" aria-label="Live demo">
+                  <a href={product.sourceCodehttps://github.com/xusanboy-m/beauty-salon} className="hover:text-primary transition-colors" aria-label="Live demo">
                     <ExternalLink size={18} />
                   </a>
                 </div>
