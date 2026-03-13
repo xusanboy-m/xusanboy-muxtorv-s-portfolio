@@ -4,7 +4,7 @@ import { Mail, Linkedin, Facebook } from "lucide-react";
 const links = [
   { icon: Mail, label: "Email", href: "mailto:xusanboymuxtorov99@gmail.com", text: "xusanboymuxtorov99@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/xusanboy-muxtorov-724401363/", text: "Xusanboy Muxtorov" },
-  { icon: Facebook, label: "Facebook", href: "https://www.linkedin.com/in/xusanboy-muxtorov-724401363/", text: "Xusanboy Muxtorov" },
+  { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/profile.php?id=61574879281418", text: "Xusanboy Muxtorov" },
 ];
 
 const ContactSection = () => {
