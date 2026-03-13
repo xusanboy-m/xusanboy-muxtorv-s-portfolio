@@ -54,10 +54,10 @@ const ProjectsSection = () => {
               <div className="flex items-start justify-between mb-4">
                 <h3 className="font-display font-semibold text-xl">{project.title}</h3>
                 <div className="flex gap-3 text-muted-foreground">
-                  <a href={product.sourceCodehttps://github.com/xusanboy-m/streamline} className="hover:text-primary transition-colors" aria-label="GitHub">
+                  <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="GitHub">
                     <Github size={18} />
                   </a>
-                  <a href={product.sourceCodehttps://github.com/xusanboy-m/beauty-salon} className="hover:text-primary transition-colors" aria-label="Live demo">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors" aria-label="Live demo">
                     <ExternalLink size={18} />
                   </a>
                 </div>
